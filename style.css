@@ -1,0 +1,113 @@
+body {
+  background-image: url('body.jpg');
+  background-size: contain;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.top-resume p{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.both-colunm{
+  display: flex;
+}
+
+.first-colunm{
+  padding-left: 50px;
+  padding-right: 180px;
+}
+
+.obj{
+  /* padding-bottom: 10px; */
+  font-size: 25px;
+}
+input{
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 25px;  
+  width: 100%;
+  padding-bottom: 20px;
+  border-radius: 6px;
+}
+
+label{
+  margin-bottom: 10px;
+  padding-bottom: 100px;
+  font-weight: 400;
+  border-radius: 40px;
+}
+
+.form-group{
+  font-size: 25px;
+}
+h2{
+  padding-bottom: 10px;
+}
+
+button {
+  background-color: rgb(155, 197, 211);
+  width: 90px;
+  height: 40px;
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);    /* Slightly scale up on hover */
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.95);     /* Scale down slightly on click */
+}
+.second-colunm{
+  padding-left: 200px;
+  padding-right: 100px;
+  width: 400px;
+}
+
+.form-group-ref {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 25px;
+}
+.sub{
+  padding-top: 100px;
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+  margin-right: 100px;
+}
+
+#submitbutton{
+  height: 50px;
+  width: 200px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+#submitbutton:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.05);    /* Slightly scale up on hover */
+  cursor: pointer;
+}
+
+#submit-button:active {
+  transform: scale(0.95);     /* Scale down slightly on click */
+}
